@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.edu.utfpr.dv.sireata.dao</OriginalElement>
+  <nodes>
+    <node x="1108.0" y="110.0">br.edu.utfpr.dv.sireata.dao.AnexoDAO</node>
+    <node x="475.99999999999994" y="110.0">br.edu.utfpr.dv.sireata.dao.AtaDAO</node>
+    <node x="592.0" y="110.0">br.edu.utfpr.dv.sireata.dao.ComentarioDAO</node>
+    <node x="564.6262626262627" y="0.0">br.edu.utfpr.dv.sireata.dao.ConnectionDAO</node>
+    <node x="764.0" y="110.0">br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO</node>
+    <node x="287.99999999999994" y="110.0">br.edu.utfpr.dv.sireata.dao.DepartamentoDAO</node>
+    <node x="71.5479797979799" y="322.0">br.edu.utfpr.dv.sireata.dao.OrgaoDAO</node>
+    <node x="976.0" y="110.0">br.edu.utfpr.dv.sireata.dao.PautaDAO</node>
+    <node x="147.99999999999994" y="110.0">br.edu.utfpr.dv.sireata.dao.CampusDAO</node>
+    <node x="0.0" y="110.0">br.edu.utfpr.dv.sireata.dao.UsuarioDAO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.edu.utfpr.dv.sireata.dao.AtaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="524.0" y="90.0" />
+      <point x="623.7373737373738" y="90.0" />
+      <point x="-16.888888888888914" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.CampusDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="207.99999999999994" y="70.0" />
+      <point x="589.9595959595961" y="70.0" />
+      <point x="-50.66666666666663" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.AnexoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="1164.0" y="60.0" />
+      <point x="691.2929292929293" y="60.0" />
+      <point x="50.66666666666663" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.UsuarioDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="64.0" y="60.0" />
+      <point x="573.0707070707072" y="60.0" />
+      <point x="-67.55555555555554" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.OrgaoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="37.33333333333337" y="-15.0" />
+      <point x="166.88131313131328" y="170.0" />
+      <point x="1230.5" y="170.0" />
+      <point x="1230.5" y="50.0" />
+      <point x="708.1818181818182" y="50.0" />
+      <point x="67.55555555555554" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.PautaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="1032.0" y="70.0" />
+      <point x="674.4040404040404" y="70.0" />
+      <point x="33.777777777777715" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.ComentarioDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="668.0" y="90.0" />
+      <point x="640.6262626262627" y="90.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="5.6843418860808015E-14" y="-15.0" />
+      <point x="860.0" y="80.0" />
+      <point x="657.5151515151516" y="80.0" />
+      <point x="16.888888888888914" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.OrgaoDAO" target="br.edu.utfpr.dv.sireata.dao.UsuarioDAO">
+      <point x="-37.33333333333334" y="-15.0" />
+      <point x="92.21464646464653" y="170.0" />
+      <point x="32.0" y="170.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.DepartamentoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="371.99999999999994" y="80.0" />
+      <point x="606.8484848484849" y="80.0" />
+      <point x="-33.77777777777783" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="547.5" y="202.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

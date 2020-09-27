@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sireata:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sireata</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sireata-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sireata:war exploded" />
+    </root>
+  </artifact>
+</component>
