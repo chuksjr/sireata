@@ -3,83 +3,134 @@
   <ID>JAVA</ID>
   <OriginalElement>br.edu.utfpr.dv.sireata.dao</OriginalElement>
   <nodes>
-    <node x="1108.0" y="110.0">br.edu.utfpr.dv.sireata.dao.AnexoDAO</node>
-    <node x="475.99999999999994" y="110.0">br.edu.utfpr.dv.sireata.dao.AtaDAO</node>
-    <node x="592.0" y="110.0">br.edu.utfpr.dv.sireata.dao.ComentarioDAO</node>
-    <node x="564.6262626262627" y="0.0">br.edu.utfpr.dv.sireata.dao.ConnectionDAO</node>
-    <node x="764.0" y="110.0">br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO</node>
-    <node x="287.99999999999994" y="110.0">br.edu.utfpr.dv.sireata.dao.DepartamentoDAO</node>
-    <node x="71.5479797979799" y="322.0">br.edu.utfpr.dv.sireata.dao.OrgaoDAO</node>
-    <node x="976.0" y="110.0">br.edu.utfpr.dv.sireata.dao.PautaDAO</node>
-    <node x="147.99999999999994" y="110.0">br.edu.utfpr.dv.sireata.dao.CampusDAO</node>
-    <node x="0.0" y="110.0">br.edu.utfpr.dv.sireata.dao.UsuarioDAO</node>
+    <node x="1522.5" y="130.0">br.edu.utfpr.dv.sireata.dao.ComentariosDAO</node>
+    <node x="1390.5" y="130.0">br.edu.utfpr.dv.sireata.dao.BuscaDAO</node>
+    <node x="946.5" y="130.0">br.edu.utfpr.dv.sireata.dao.ComentarioDAO</node>
+    <node x="682.5" y="130.0">br.edu.utfpr.dv.sireata.dao.AtaDAO</node>
+    <node x="734.123798076923" y="210.0">br.edu.utfpr.dv.sireata.dao.OrgaoDAO</node>
+    <node x="362.5" y="130.0">br.edu.utfpr.dv.sireata.dao.PautaDAO</node>
+    <node x="1702.5" y="130.0">br.edu.utfpr.dv.sireata.dao.HandleAtaDAO</node>
+    <node x="1118.5" y="130.0">br.edu.utfpr.dv.sireata.dao.AnexoDAO</node>
+    <node x="786.5" y="0.0">br.edu.utfpr.dv.sireata.dao.ConnectionDAO</node>
+    <node x="150.5" y="130.0">br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO</node>
+    <node x="494.5" y="130.0">br.edu.utfpr.dv.sireata.dao.DepartamentoDAO</node>
+    <node x="798.5" y="130.0">br.edu.utfpr.dv.sireata.dao.UsuarioDAO</node>
+    <node x="10.5" y="130.0">br.edu.utfpr.dv.sireata.dao.CampusDAO</node>
+    <node x="1250.5" y="130.0">br.edu.utfpr.dv.sireata.dao.ListarDAO</node>
+    <node x="1506.5" y="0.0">br.edu.utfpr.dv.sireata.dao.AtaDAO1</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="br.edu.utfpr.dv.sireata.dao.AtaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
-      <point x="0.0" y="-15.0" />
-      <point x="524.0" y="90.0" />
-      <point x="623.7373737373738" y="90.0" />
-      <point x="-16.888888888888914" y="15.0" />
+    <edge source="br.edu.utfpr.dv.sireata.dao.ListarDAO" target="br.edu.utfpr.dv.sireata.dao.AtaDAO1">
+      <point x="30.0" y="-15.0" />
+      <point x="1340.5" y="100.0" />
+      <point x="1519.5" y="100.0" />
+      <point x="-39.0" y="15.0" />
     </edge>
     <edge source="br.edu.utfpr.dv.sireata.dao.CampusDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
       <point x="0.0" y="-15.0" />
-      <point x="207.99999999999994" y="70.0" />
-      <point x="589.9595959595961" y="70.0" />
-      <point x="-50.66666666666663" y="15.0" />
+      <point x="70.5" y="70.0" />
+      <point x="804.0384615384615" y="70.0" />
+      <point x="-58.46153846153845" y="15.0" />
     </edge>
     <edge source="br.edu.utfpr.dv.sireata.dao.AnexoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
       <point x="0.0" y="-15.0" />
-      <point x="1164.0" y="60.0" />
-      <point x="691.2929292929293" y="60.0" />
-      <point x="50.66666666666663" y="15.0" />
-    </edge>
-    <edge source="br.edu.utfpr.dv.sireata.dao.UsuarioDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
-      <point x="0.0" y="-15.0" />
-      <point x="64.0" y="60.0" />
-      <point x="573.0707070707072" y="60.0" />
-      <point x="-67.55555555555554" y="15.0" />
-    </edge>
-    <edge source="br.edu.utfpr.dv.sireata.dao.OrgaoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
-      <point x="37.33333333333337" y="-15.0" />
-      <point x="166.88131313131328" y="170.0" />
-      <point x="1230.5" y="170.0" />
-      <point x="1230.5" y="50.0" />
-      <point x="708.1818181818182" y="50.0" />
-      <point x="67.55555555555554" y="15.0" />
-    </edge>
-    <edge source="br.edu.utfpr.dv.sireata.dao.PautaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
-      <point x="0.0" y="-15.0" />
-      <point x="1032.0" y="70.0" />
-      <point x="674.4040404040404" y="70.0" />
-      <point x="33.777777777777715" y="15.0" />
+      <point x="1174.5" y="100.0" />
+      <point x="885.8846153846154" y="100.0" />
+      <point x="23.38461538461536" y="15.0" />
     </edge>
     <edge source="br.edu.utfpr.dv.sireata.dao.ComentarioDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
       <point x="0.0" y="-15.0" />
-      <point x="668.0" y="90.0" />
-      <point x="640.6262626262627" y="90.0" />
-      <point x="0.0" y="15.0" />
+      <point x="1022.5" y="110.0" />
+      <point x="874.1923076923076" y="110.0" />
+      <point x="11.692307692307622" y="15.0" />
     </edge>
-    <edge source="br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
-      <point x="5.6843418860808015E-14" y="-15.0" />
-      <point x="860.0" y="80.0" />
-      <point x="657.5151515151516" y="80.0" />
-      <point x="16.888888888888914" y="15.0" />
+    <edge source="br.edu.utfpr.dv.sireata.dao.HandleAtaDAO" target="br.edu.utfpr.dv.sireata.dao.AtaDAO1">
+      <point x="36.0" y="-15.0" />
+      <point x="1810.5" y="50.0" />
+      <point x="1597.5" y="50.0" />
+      <point x="39.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.BuscaDAO" target="br.edu.utfpr.dv.sireata.dao.AtaDAO1">
+      <point x="28.0" y="-15.0" />
+      <point x="1474.5" y="110.0" />
+      <point x="1545.5" y="110.0" />
+      <point x="-13.0" y="15.0" />
     </edge>
     <edge source="br.edu.utfpr.dv.sireata.dao.OrgaoDAO" target="br.edu.utfpr.dv.sireata.dao.UsuarioDAO">
-      <point x="-37.33333333333334" y="-15.0" />
-      <point x="92.21464646464653" y="170.0" />
-      <point x="32.0" y="170.0" />
+      <point x="0.0" y="-15.0" />
+      <point x="790.123798076923" y="180.0" />
+      <point x="830.5" y="180.0" />
       <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.ComentariosDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="-40.0" y="-15.0" />
+      <point x="1562.5" y="70.0" />
+      <point x="920.9615384615383" y="70.0" />
+      <point x="58.46153846153834" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.AtaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="730.5" y="110.0" />
+      <point x="850.8076923076923" y="110.0" />
+      <point x="-11.692307692307736" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.ComentariosDAO" target="br.edu.utfpr.dv.sireata.dao.AtaDAO1">
+      <point x="40.0" y="-15.0" />
+      <point x="1642.5" y="110.0" />
+      <point x="1571.5" y="110.0" />
+      <point x="13.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.UsuarioDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.PautaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="418.5" y="90.0" />
+      <point x="827.4230769230769" y="90.0" />
+      <point x="-35.076923076923094" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.OrgaoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="-37.33333333333337" y="-15.0" />
+      <point x="752.7904647435896" y="190.0" />
+      <point x="0.0" y="190.0" />
+      <point x="0.0" y="60.0" />
+      <point x="792.3461538461538" y="60.0" />
+      <point x="-70.15384615384619" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.ListarDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="-30.0" y="-15.0" />
+      <point x="1280.5" y="90.0" />
+      <point x="897.5769230769231" y="90.0" />
+      <point x="35.076923076923094" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="0.0" y="-15.0" />
+      <point x="246.5" y="80.0" />
+      <point x="815.7307692307693" y="80.0" />
+      <point x="-46.76923076923072" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.BuscaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="-28.0" y="-15.0" />
+      <point x="1418.5" y="80.0" />
+      <point x="909.2692307692307" y="80.0" />
+      <point x="46.76923076923072" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.sireata.dao.HandleAtaDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
+      <point x="-36.0" y="-15.0" />
+      <point x="1738.5" y="60.0" />
+      <point x="932.6538461538462" y="60.0" />
+      <point x="70.15384615384619" y="15.0" />
     </edge>
     <edge source="br.edu.utfpr.dv.sireata.dao.DepartamentoDAO" target="br.edu.utfpr.dv.sireata.dao.ConnectionDAO">
       <point x="0.0" y="-15.0" />
-      <point x="371.99999999999994" y="80.0" />
-      <point x="606.8484848484849" y="80.0" />
-      <point x="-33.77777777777783" y="15.0" />
+      <point x="578.5" y="100.0" />
+      <point x="839.1153846153846" y="100.0" />
+      <point x="-23.38461538461536" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="547.5" y="202.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="1084.5" y="205.0" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
