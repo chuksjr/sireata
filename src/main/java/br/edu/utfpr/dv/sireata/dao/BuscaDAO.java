@@ -11,7 +11,7 @@ import br.edu.utfpr.dv.sireata.model.Ata;
 import br.edu.utfpr.dv.sireata.model.Ata.TipoAta;
 import br.edu.utfpr.dv.sireata.util.DateUtils;
 
-public abstract class BuscaDAO implements AtaDAO1 {
+public class BuscaDAO {
 
     public Ata buscarPorId(int id) throws SQLException {
         Connection conn = null;

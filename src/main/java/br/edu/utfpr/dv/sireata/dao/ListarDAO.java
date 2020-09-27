@@ -15,7 +15,7 @@ import br.edu.utfpr.dv.sireata.model.Ata.TipoAta;
 import br.edu.utfpr.dv.sireata.util.DateUtils;
 
 
-public abstract class ListarDAO implements  AtaDAO1 {
+public class ListarDAO {
 
     public List<Ata> listar(int idUsuario, int idCampus, int idDepartamento, int idOrgao, boolean publicadas) throws SQLException {
         Connection conn = null;

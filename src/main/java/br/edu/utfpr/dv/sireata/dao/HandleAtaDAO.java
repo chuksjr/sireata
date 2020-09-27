@@ -5,7 +5,7 @@ import br.edu.utfpr.dv.sireata.util.DateUtils;
 
 import java.sql.*;
 
-public abstract class HandleAtaDAO implements AtaDAO1 {
+public class HandleAtaDAO {
 
 
     public int salvar(Ata ata) throws SQLException {
